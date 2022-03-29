@@ -9,7 +9,7 @@ let searched_index = null;
 
 let low = 0;
 let high = arr.length - 1;
-let mid = parseInt((low + (high - low)) / 2);
+let mid = Math.floor((low + (high - low)) / 2);
 
 while (!searched) {
     if (search_item === arr[mid]) {
